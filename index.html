@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resume" />
+    <title>Document</title>
+    <!-- <style>
+      #experience {
+        background-color: cyan;
+      }
+    </style> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Resume</h1>
+
+    <h3>Quick Links</h3>
+    <ol>
+      <li><a href="#introduction">Go to Introduction</a></li>
+      <li><a href="#video">Go to Video</a></li>
+      <li><a href="#qualification">Go to Qualification</a></li>
+      <li><a href="#skills">Go to Skills</a></li>
+      <li><a href="#experience">Go to Experience</a></li>
+      <li><a href="#info">Go to Personal Info</a></li>
+      <li><a href="#details">Go to Contact Details</a></li>
+      <li><a href="#social-media">Go to Social Media Links</a></li>
+    </ol>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>
+      I’m <strong>Muhammad Awais,</strong> a dedicated web developer and
+      aspiring AI Enthusiast , constantly exploring new technologies to create
+      innovative solutions. With expertise in the Software development and a
+      passion for machine learning and AI and also start learning python to
+      create interesting projects as future belongs to agents as agentic AI, I
+      thrive in fast-paced environments and am eager to contribute to
+      cutting-edge projects and seeking for opportunity to start my career as a
+      fresher and also contribute to real world application through my skills.
+    </p>
+
+    <br />
+
+    <h2 id="video">Video Introduction</h2>
+    <div
+      id="video-container"
+      style="position: relative; width: 560px; height: 315px; cursor: pointer"
+    >
+      <!-- Video Thumbnail -->
+      <img
+        id="video-thumbnail"
+        src="https://c8.alamy.com/comp/2R82G7B/sticky-note-with-the-text-introduce-yourself-on-office-desk-self-introduction-concept-2R82G7B.jpg"
+        alt="Video Thumbnail"
+        width="560"
+        height="315"
+        onclick="playVideo()"
+      />
+
+      <!-- Play Button -->
+      <div
+        id="play-button"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: rgba(0, 0, 0, 0.6);
+          color: white;
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+        "
+      >
+        ▶
+      </div>
+    </div>
+
+    <script>
+      function playVideo() {
+        document.getElementById("video-container").innerHTML = `
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/OLVUrgQ_BbA?si=OiA6wEACJP2rXm_3&autoplay=1&controls=1" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            `;
+      }
+    </script>
+
+    <h2 id="qualification">Qualification</h2>
+    <table border="10px" cellspacing="0" cellpadding="15" >
+      <tr>
+        <th scope="col">Sr.no</th>
+        <th scope="col">Education Level</th>
+        <th scope="col">Obtained %</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Matric</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Intermediate</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Graduation</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Courses</td>
+        <td>70</td>
+      </tr>
+    </table>
+
+    <h2 id="skills">Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>React</li>
+      <li>Nextjs</li>
+      <li>Tailwind CSS</li>
+    </ul>
+
+    <h2 id="experience">Experience</h2>
+    <ol>
+      <li>Frontend developer at abs technologies</li>
+      <li>Web developer at ibex</li>
+      <li>Backend developer at new tech</li>
+    </ol>
+
+    <h2 id="info">Personal Info</h2>
+
+    <p>
+      I’m a dedicated web developer and aspiring AI Enthusiast , constantly
+      exploring new technologies to create innovative solutions.
+    </p>
+
+    <h2 id="details">Contact Details</h2>
+    <address>
+      <strong>Name:</strong> Muhammad Awais <br />
+      <strong>Email:</strong>
+      <a href="mailto:webmaster@example.com">webmaster@example.com</a><br />
+      <strong>Phone:</strong> <a href="tel:+923175555555">+92 317 5555555</a
+      ><br />
+    </address>
+
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.461997956402!2d67.06481487401261!3d24.882218144389114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eebb530102b%3A0x899dc4ac84bd5f54!2sGrappetite%20Chowrangi%2C%20Bahadur%20Shah%20Zafar%20Road%2C%20Bahadurabad%20Bahadur%20Yar%20Jang%20CHS%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1741831778331!5m2!1sen!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
+
+    <br />
+    <br />
+    <h2 id="social-media">Social Media Links</h2>
+
+    <ul>
+      <li><a href="https://www.tiktok.com/login" target="_blank">Tiktok</a></li>
+      <br />
+      <li>
+        <a href="https://www.facebook.com/login.php/" target="_blank"
+          >Facebook</a
+        >
+      </li>
+      <br />
+      <li>
+        <a href="https://www.youtube.com/@JSGuru" target="_blank">YouTube</a>
+      </li>
+    </ul>
+  </body>
+</html>
